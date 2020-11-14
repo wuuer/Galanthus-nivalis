@@ -77,7 +77,7 @@ namespace WindowsFormsApplication1
                 {
                     break;
                 }
-                if ((Row.Cells[10].CellType == CellType.Formula) && Row.Cells[10].NumericCellValue!=0)
+                if ((Row.Cells[10].CellType == CellType.Numeric) && Row.Cells[10].NumericCellValue!=0)
                 {
 
                     IRow wRow = WithDrawCollectionSheet.GetRow(3 + UnWithDrawCount);
